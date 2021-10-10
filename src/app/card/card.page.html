@@ -1,0 +1,42 @@
+<app-headers titulo="Cards"></app-headers>
+
+<ion-content>
+  
+  <!-- Primer tarjeta -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Hola!!!</ion-card-subtitle>
+      <ion-card-title>Hilos de Fuego</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Muy buenas bienvenidos a Hilos de Fuego!
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Segunda tarjeta -->
+  <ion-card>
+    <ion-item>
+      <ion-icon name="moon" slot="start"></ion-icon>
+      <ion-label> Con flores, te llevaste mi tristeza con colores! </ion-label>
+      <ion-button fill="outline" slot="end"> Holaaaaa </ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, eius facere eveniet quaerat ea placeat mollitia architecto, recusandae unde nulla assumenda dicta dolor laudantium beatae tenetur! Sunt iste consectetur iusto.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Tercera tarjeta -->
+  <ion-card *ngFor="let c of cards">
+    <ion-card-header>
+      <ion-card-title> {{ c.title }} </ion-card-title>
+      <ion-card-subtitle> {{ c.subtitle }} </ion-card-subtitle>
+    </ion-card-header>
+    <ion-img [src]="c.img"></ion-img>
+    <ion-card-content>
+      {{ c.content }}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
