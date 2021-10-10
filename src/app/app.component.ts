@@ -14,12 +14,15 @@ export class AppComponent {
     // { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
     { title: 'Inicio', url: '/inicio', icon: 'home' },
     { title: 'Clientes', url: '/clientes', icon: 'people' },
+<<<<<<< HEAD
     { title: 'Actions', url: '/action', icon: 'basketball' },
     { title: 'Alerts', url: '/alert', icon: 'alert' },
     { title: 'Avatar', url: '/avatar', icon: 'aperture' },
     { title: 'Favoritos', url: '/favorito', icon: 'heart' },
     { title: 'Cards', url: '/card', icon: 'moon' },
     { title: 'Fab ?', url: '/fab', icon: 'information' }
+=======
+>>>>>>> 2e96ffea643091bd08fa7ce67d9511d37ad2d544
   ];
   // public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

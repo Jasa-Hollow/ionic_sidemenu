@@ -1,8 +1,20 @@
+<<<<<<< HEAD
 <app-headers titulo="Inicio"></app-headers>
+=======
+<ion-header [translucent]="true">
+  <ion-toolbar color="pneuma">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Inicio </ion-title>
+  </ion-toolbar>
+</ion-header>
+>>>>>>> 2e96ffea643091bd08fa7ce67d9511d37ad2d544
 
 <ion-content>
   <div id="container">
     <p> Bienvenidos amigos </p>
+<<<<<<< HEAD
     <ion-button color="pneuma" [routerLink]="['/clientes']">Go to clientes</ion-button>
     <ion-list>
       <ion-item *ngFor="let c of componentes" [routerLink]=c.redirectTo detail="true">
@@ -10,5 +22,8 @@
         {{c.name}}
       </ion-item>
     </ion-list>
+=======
+    <ion-button [routerLink]="['/clientes']">Go to clientes</ion-button>
+>>>>>>> 2e96ffea643091bd08fa7ce67d9511d37ad2d544
   </div>
 </ion-content>

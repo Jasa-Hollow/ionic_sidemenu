@@ -91,6 +91,7 @@
   --ion-color-mythra-shade: #90c021;
   --ion-color-mythra-tint: #adde3b;
 
+<<<<<<< HEAD
   /** YouTube color **/
   --ion-color-youtube: #C4302B;
   --ion-color-youtube-rgb: 196,48,43;
@@ -142,6 +143,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
+=======
+}
+
+@media (prefers-color-scheme: light) {
+>>>>>>> 2e96ffea643091bd08fa7ce67d9511d37ad2d544
   /*
    * Dark Colors
    * -------------------------------------------
@@ -299,6 +305,7 @@
     --ion-card-background: #1e1e1e;
   }
 }
+<<<<<<< HEAD
 
 .ion-color-youtube {
   --ion-color-base: var(--ion-color-youtube);
@@ -353,3 +360,5 @@
   --ion-color-shade: var(--ion-color-google-shade);
   --ion-color-tint: var(--ion-color-google-tint);
 }
+=======
+>>>>>>> 2e96ffea643091bd08fa7ce67d9511d37ad2d544

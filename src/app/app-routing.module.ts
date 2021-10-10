@@ -18,6 +18,7 @@ const routes: Routes = [
   {
     path: 'clientes',
     loadChildren: () => import('./clientes/clientes.module').then( m => m.ClientesPageModule)
+<<<<<<< HEAD
   },
   {
     path: 'action',
@@ -42,6 +43,8 @@ const routes: Routes = [
   {
     path: 'fab',
     loadChildren: () => import('./fab/fab.module').then( m => m.FabPageModule)
+=======
+>>>>>>> 2e96ffea643091bd08fa7ce67d9511d37ad2d544
   }
 ];
 
